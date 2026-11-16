@@ -1,25 +1,19 @@
+# Environment files and local credentials
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+
 # Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 .eggs/
-build/
-dist/
-sdist/
-wheels/
-
-# Virtual environments
 venv/
 .venv/
 env/
 ENV/
-
-# Environment variables
-.env
-.env.*
-!.env.example
-
-# Test / tooling caches
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -28,7 +22,14 @@ htmlcov/
 .tox/
 .nox/
 
-# IDE / OS
+# JavaScript
+node_modules/
+dist/
+build/
+coverage/
+
+# IDE and operating system
 .idea/
 .vscode/
 .DS_Store
+Thumbs.db

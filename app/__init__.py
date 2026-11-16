@@ -1,1 +1,0 @@
-# AI Script Writer backend package.
